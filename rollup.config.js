@@ -25,7 +25,7 @@ export default [
         file: pkg.browser,
         format: "umd",
         sourcemap: true,
-        plugins: [terser()]
+        // plugins: [terser()]
       },
       {
         name: "Tribute",
