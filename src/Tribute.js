@@ -322,6 +322,17 @@ class Tribute {
 
       this.current.filteredItems = items;
 
+
+      // we only care about items
+      this.current.element.dispatchEvent(new CustomEvent('items', {
+        detail: {
+          items: items
+        }
+      }));
+      return;
+          
+      
+
       let ul = this.menu.querySelector("ul");
 
       this.range.positionMenuAtCaret(scrollTo);
