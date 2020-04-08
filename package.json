@@ -4,7 +4,7 @@
   "description": "Native ES6 @mentions",
   "main": "dist/tribute.js",
   "module": "dist/tribute.esm.js",
-  "browser": "dist/tribute.min.js",
+  "browser": "dist/tribute.js",
   "types": "tributejs.d.ts",
   "devDependencies": {
     "@babel/core": "^7.5.5",
